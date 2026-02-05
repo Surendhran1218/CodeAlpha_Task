@@ -1,33 +1,26 @@
-# 🌍 Language Translation Tool (Python)
+# 🤖 FAQ Chatbot using NLP (Python):
 
-This project is a **Language Translation Tool** developed using **Python** as part of the **CodeAlpha Artificial Intelligence Tasks**.  
-It allows users to translate text from one language to another using a translation API, without any graphical user interface.
-
----
-
-## 📌 Project Description
-
-The Language Translation Tool takes text input from the user through the command line and translates it into a selected target language.  
-It demonstrates the real-world application of **Artificial Intelligence and Natural Language Processing (NLP)** using Python.
+This project is a simple **FAQ Chatbot** built using **Python and Natural Language Processing (NLP)**.  
+The chatbot answers user questions by finding the most similar FAQ using **TF-IDF vectorization** and **cosine similarity**.
 
 ---
 
-## ✨ Features
+## 📌 Task Description:
 
-- Console-based application (No UI)
-- Supports multiple languages
-- Source and target language selection
-- Uses Google Translator API
-- Simple and beginner-friendly code structure
+- Collect FAQs related to a topic
+- Preprocess text using NLP techniques
+- Match user questions with the most similar FAQ
+- Display the best matching answer as a chatbot response
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies Used:
 
 - Python
-- Natural Language Processing (NLP)
-- `deep-translator` (Google Translate API)
-
+- NLTK
+- Scikit-learn
+- TF-IDF Vectorizer
+- Cosine Similarity
 
 Author : Surendhran
-skills : python|NLP|AI
+Skills : python|NLP
